@@ -1,63 +1,45 @@
-## Prerequisites
+# Pravia CRM Platform
 
-- Node.js >=20 (Recommended)
+A modern CRM platform built with a microservices architecture using pnpm workspaces, featuring self-hosted Supabase and AWS deployment.
 
-## Installation
+## 📋 Quick Navigation
 
-**Using pnpm (Recommended)**
+### **🚀 Getting Started**
+- [**Quick Start Guide**](./docs/getting-started/README.md) - Get running in 2 minutes
+- [**Architecture Overview**](./docs/getting-started/architecture.md) - System design and components
+- [**Essential Commands**](./docs/getting-started/commands.md) - Key development commands
 
-```sh
-pnpm install
-pnpm dev
-```
+### **🏗️ Infrastructure & Deployment**
+- [**Deployment Guide**](./docs/infrastructure/README.md) - Production deployment steps
+- [**Monitoring & Dashboards**](./docs/infrastructure/monitoring.md) - CloudWatch dashboards and alerts
+- [**Cost Estimation**](./docs/infrastructure/cost-estimation.md) - Monthly cost breakdown
+- **Deployment Stacks**
+  - [**Foundation Stack**](./infra/aws/cdk/foundation-infra/README.md) - Shared infrastructure (DNS, SSL, storage)
+  - [**Supabase Stack**](./infra/aws/cdk/supabase-infra/README.md) - Application infrastructure
 
-**Using Yarn**
+### **🛠️ Development**
+- [**Development Workflow**](./docs/development/README.md) - Local development setup
+- [**UI Components**](./docs/development/ui-components.md) - Reusable UI package guide
+- [**Standards**](./docs/development/standards.md) - Code quality, linting, and formatting standards
+- [**Testing**](./docs/development/testing.md) - Jest testing guide and Playwright roadmap
+- [**Database Options**](./docs/development/database-options.md) - PostgreSQL vs Supabase
+- [**Configuration**](./docs/development/configuration.md) - Environment setup
 
-```sh
-yarn install
-yarn dev
-```
+> **AWS Credentials:** Use `--profile dev` for AWS CLI commands. Long-term access keys are configured for development convenience.
 
-**Using Npm**
+### **📚 Reference**
+- [**Project Structure**](./docs/reference/project-structure.md) - Directory organization
+- [**Troubleshooting**](./docs/reference/troubleshooting.md) - Common issues and solutions
+- [**API Documentation**](./docs/reference/api-docs.md) - Service documentation links
 
-```sh
-npm i
-npm run dev
-```
+### **🤖 AI Development Tools**
+- [**MCP Extensions**](./docs/tools/README.md) - Model Context Protocol servers for enhanced AI capabilities
 
-## Build
-
-```sh
-pnpm build
-# or
-yarn build
-# or
-npm run build
-```
-
-## Mock server
-
-By default we provide demo data from : `https://api-dev-minimal-[version].vercel.app`
-
-To set up your local server:
-
-- **Guide:** [https://docs.minimals.cc/mock-server](https://docs.minimals.cc/mock-server).
-
-- **Resource:** [Download](https://www.dropbox.com/scl/fo/bopqsyaatc8fbquswxwww/AKgu6V6ZGmxtu22MuzsL5L4?rlkey=8s55vnilwz2d8nsrcmdo2a6ci&dl=0).
-
-## Full version
-
-- Create React App ([migrate to CRA](https://docs.minimals.cc/migrate-to-cra/)).
-- Next.js
-- Vite.js
-
-## Starter version
-
-- To remove unnecessary components. This is a simplified version ([https://starter.minimals.cc/](https://starter.minimals.cc/))
-- Good to start a new project. You can copy components from the full version.
-- Make sure to install the dependencies exactly as compared to the full version.
+### **🤝 Contributing**
+- [**Contributing Guide**](./CONTRIBUTING.md) - How to contribute to the project
 
 ---
 
-**NOTE:**
-_When copying folders remember to also copy hidden files like .env. This is important because .env files often contain environment variables that are crucial for the application to run correctly._
+## 📄 License
+
+[Your License Here]
