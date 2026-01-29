@@ -1,0 +1,1 @@
+import{ah as r,C as o}from"./index-DzR_SryQ.js";const a=r.create({baseURL:o.serverUrl,headers:{"Content-Type":"application/json"}});a.interceptors.response.use(e=>e,e=>{const s=e?.response?.data?.message||e?.message||"Something went wrong!";return console.error("Axios error:",s),Promise.reject(new Error(s))});export{a as default};
