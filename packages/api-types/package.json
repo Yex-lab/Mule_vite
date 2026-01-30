@@ -1,6 +1,6 @@
 {
   "name": "@asyml8/api-types",
-  "version": "1.0.187",
+  "version": "1.0.189",
   "description": "Shared TypeScript types for all ASYML8 APIs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

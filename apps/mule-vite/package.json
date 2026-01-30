@@ -1,8 +1,8 @@
 {
   "name": "mule-vite",
   "author": "Tony Henderson",
-  "version": "1.0.396",
-  "buildDate": "2026-01-27T13:08:29.841Z",
+  "version": "1.0.398",
+  "buildDate": "2026-01-30T18:38:31.256Z",
   "description": "Vite Starter & TypeScript",
   "private": true,
   "type": "module",

@@ -6,6 +6,13 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
+    "paths": {
+      "@asyml8/ui": ["../../packages/ui/src/index.ts"],
+      "@asyml8/ui/*": ["../../packages/ui/src/*"],
+      "@asyml8/api-types": ["../../packages/api-types/src/index.ts"],
+      "@asyml8/api-types/*": ["../../packages/api-types/src/*"],
+      "src/*": ["./src/*"]
+    },
 
     /* Build */
     "target": "ES2020",
@@ -24,7 +31,7 @@
     "noImplicitAny": false,
     "types": ["node"]
   },
-  "include": ["src"],
+  "include": ["src", "../../packages/ui/src", "../../packages/api-types/src"],
   "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx", "src/test"],
   "references": [
     {

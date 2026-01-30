@@ -1,7 +1,7 @@
 {
   "_WARNING": "🚨 MUI v7+ REQUIRED - DO NOT DOWNGRADE - See apps/pravia-web/CRITICAL-VERSION-NOTES.md 🚨",
   "name": "@asyml8/ui",
-  "version": "1.0.1172",
+  "version": "1.0.1175",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
