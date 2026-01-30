@@ -55,6 +55,7 @@
     "build-storybook": "pnpm --filter @asyml8/ui build-storybook"
   },
   "devDependencies": {
+    "@rollup/rollup-linux-x64-musl": "^4.57.0",
     "@types/minimatch": "^6.0.0",
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
